@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #0c0a0a;
+  background-color: #eee9e9;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 0px 2rem;
+  border: 1px solid;
+}
+
+.main-heading {
+  font-size: 4rem;
+  margin: 2rem 0rem 1rem;
+  color: #140e0e;
+  text-align: center;
+}
+
+/* form section */
+.form-class {
+  margin: 2rem 0px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-field {
+  margin: 1rem 0px 0.6rem;
+}
+
+.field-head {
+  font-size: 2rem;
+}
+
+.input-div {
+  margin-bottom: 1rem;
+}
+
+.field-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.form-control-input {
+  font-size: 1.125rem;
+  padding: 0.4rem 0;
+  text-indent: 0.5rem;
+  border: none;
+  outline: 1px solid #999;
+  border-radius: 7px;
+  width: 100%;
+  color: #716f6f;
+}
+
+/* select option {
+  background: #f9eeee;
+} */
+
+.radio {
+  outline: none;
+}
+
+.form-control-input:focus {
+  color: #aeb6bf;
+  background-color: #fff;
+  border-color: #e67f43;
+  outline: 0;
+  box-shadow: 5px 5px 14px 0.5rem #0a0b0e40;
+}
+
+.help-text {
+  font-size: 0.7rem;
+  margin-top: 0.4rem;
+  padding: 0.1rem;
+}
+
+.btn {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin: 0px auto;
+  display: block;
+  color: wite;
+  padding: 0.4rem 2rem;
+  background: radial-gradient(
+    circle,
+    rgb(137, 227, 228) 0%,
+    rgba(255, 228, 171, 1) 100%
+  );
+  color: #08073df8;
+  box-shadow: 9px #0000;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(19, 19, 20, 0.2) 0px 7px 29px 0px;
+  transition: transform 0.8s ease;
+}
+
+.btn:hover {
+  background: radial-gradient(
+    circle,
+    rgba(212, 88, 246, 0.7792366946778712) 0%,
+    rgba(92, 131, 174, 1) 100%
+  );
+  transform: scale(1.2);
+}
+
+/* form section ends */
